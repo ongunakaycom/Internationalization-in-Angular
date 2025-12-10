@@ -1,13 +1,27 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { LanguageService } from './services/language.service';
 
 @Component({
   selector: 'app-root',
-  standalone: true, // You likely missed this in your provided component snippet
+  standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-app';
+
+  public languageService = inject(LanguageService);
+
+  get greeting() {
+    return this.languageService.getTranslation('greeting');
+  }
+
+  get farewell() {
+    return this.languageService.getTranslation('farewell');
+  }
+
+  setLanguage(lang: 'en' | 'fr' | 'es') {
+    this.languageService.switchLanguage(lang);
+  }
 }

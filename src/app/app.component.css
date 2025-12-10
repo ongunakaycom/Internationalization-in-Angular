@@ -1,0 +1,22 @@
+/* src/app/app.component.css */
+.language-switcher {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.language-switcher button {
+  padding: 8px 16px;
+  border: 2px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.language-switcher button.active {
+  background: #007bff;
+  color: white;
+  border-color: #0056b3;
+  font-weight: bold;
+}

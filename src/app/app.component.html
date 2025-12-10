@@ -1,4 +1,16 @@
-<h1 i18n="@@greeting">Hello, World!</h1>
-<p i18n="@@farewell">Goodbye!</p>
+<div class="language-switcher">
+  <button (click)="setLanguage('en')" [class.active]="languageService.getCurrentLang() === 'en'">
+    English
+  </button>
+  <button (click)="setLanguage('fr')" [class.active]="languageService.getCurrentLang() === 'fr'">
+    Français
+  </button>
+  <button (click)="setLanguage('es')" [class.active]="languageService.getCurrentLang() === 'es'">
+    Español
+  </button>
+</div>
+
+<h1>{{ greeting }}</h1>
+<p>{{ farewell }}</p>
 
 <router-outlet />

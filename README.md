@@ -110,8 +110,6 @@ Feel free to open issues, submit pull requests, or suggest features. Contributio
 
 ## Author
 
-# About Me
-
 I'm Ongun Akay, a Senior Full-Stack Developer with expertise across various technologies.
 
 - 👀 I specialize in full-stack development with extensive experience in frontend and backend technologies.

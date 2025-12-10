@@ -110,13 +110,15 @@ Feel free to open issues, submit pull requests, or suggest features. Contributio
 
 ## Author
 
-**Ongun Akay** – Senior Full-Stack Developer
+# About Me
 
-👀 Specializes in full-stack development with extensive frontend and backend experience.
-🌱 Continuously learning advanced web development concepts.
-💞️ Open to exciting collaborations and challenging projects.
-🌐 [Website](https://ongunakay.com)
-📫 Contact: [info@ongunakay.com](mailto:info@ongunakay.com)
+I'm Ongun Akay, a Senior Full-Stack Developer with expertise across various technologies.
+
+- 👀 I specialize in full-stack development with extensive experience in frontend and backend technologies.
+- 🌱 Currently, I'm sharpening my skills in advanced concepts of web development.
+- 💞️ I’m always open to exciting collaborations and projects that challenge my abilities.
+- 🌐 Visit my website: https://ongunakay.com
+- 📫 You can reach me at [info@ongunakay.com](mailto:info@ongunakay.com)
 
 ---
 

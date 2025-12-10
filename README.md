@@ -123,5 +123,3 @@ I'm Ongun Akay, a Senior Full-Stack Developer with expertise across various tech
 ## License
 
 This project is licensed under the MIT License.
-
-```

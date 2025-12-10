@@ -2,6 +2,8 @@
 
 A multilingual Angular application demonstrating internationalization (i18n) with **English, French, and Spanish** support. Users can switch languages dynamically on the frontend using a language switcher.
 
+GitHub Repository: [https://github.com/ongunakaycom/Internationalization-in-Angular](https://github.com/ongunakaycom/Internationalization-in-Angular)
+
 ---
 
 ## Table of Contents
@@ -31,6 +33,7 @@ This project is an Angular 19 application that showcases internationalization us
 - Dynamic page content updates without page reload
 - Ready-to-use translation files (`messages.xlf`, `messages.fr.xlf`, `messages.es.xlf`)
 - Fully standalone Angular 19 setup
+- Compatible with Angular `$localize` and i18n pipelines
 
 ---
 
@@ -39,7 +42,7 @@ This project is an Angular 19 application that showcases internationalization us
 Make sure you have **Node.js** and **Yarn** installed. Then, clone the repo and install dependencies:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ongunakaycom/Internationalization-in-Angular.git
 cd Internationalization-in-Angular
 yarn install
 ````
@@ -77,8 +80,6 @@ ng build --localize
 ## Project Structure
 
 ```
-f:/HDD/github/Internationalization-in-Angular/
-├─ .angular/
 ├─ node_modules/
 ├─ public/
 │  └─ favicon.ico
@@ -124,4 +125,3 @@ Feel free to open issues, submit pull requests, or suggest features. Contributio
 This project is licensed under the MIT License.
 
 ```
-

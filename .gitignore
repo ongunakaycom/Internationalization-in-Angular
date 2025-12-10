@@ -1,1 +1,30 @@
+# Dependency Directories
 /node_modules
+
+# Angular Build & Cache Artifacts
+/.angular
+/dist
+
+# Generated files
+/coverage
+/e2e/cypress/videos
+/e2e/cypress/screenshots
+*.js.map
+*.d.ts
+
+# Compiled output
+/out
+/build
+/tmp
+
+# Editor/OS Specific (Adjust as needed)
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+/src/environments/environment.prod.ts
+/src/environments/environment.ts
+# Add any actual secret files you might create here, e.g., config.secret.ts
